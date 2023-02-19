@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="index.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<form action="./procesarFormulario.php" class:"form" name="Samsung DEsarrolladoras">
+			<h1>Create Account</h1>
+			<h2>Nombre</h2>
+			<input type="text" name="nombre" required/><br/>
+			<h2>Email</h2>
+			<input type="email" name="e-correo" required>
+			<h2>Clave</h2>
+			<input type="password" name="clave" id="clave" minlength="8" required>
+			<h2>Confirme su clave</h2>
+			<input type="password" name="clave2" id="clave2" minlength="8" required>
+		<p>
+			<input type="submit" class="submit" value="ENVIAR" onclick="Confirmar();">
+		</form>
+	</body>
+</html>
+	
